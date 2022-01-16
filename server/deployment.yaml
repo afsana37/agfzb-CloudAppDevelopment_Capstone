@@ -20,7 +20,7 @@ spec:
         run: dealership
     spec:
       containers:
-      - image: us.icr.io/afsanamist37@gmail.com_djangoserver-space/dealership:latest
+      - image: us.icr.io/djangoserver-space/dealership:latest
         imagePullPolicy: Always
         name: dealership
         ports:
